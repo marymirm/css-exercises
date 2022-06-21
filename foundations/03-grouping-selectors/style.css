@@ -1,0 +1,15 @@
+.blackwhite,
+.yellow {
+   font-size: 28px;
+   font-family: 'Times New Roman', 'Helvetica', sans-serif;
+   display: inline-block;
+}
+
+.blackwhite {
+    color: white;
+    background-color:rgb(0, 0, 0);
+}
+
+.yellow {
+    background-color: yellow;
+}
