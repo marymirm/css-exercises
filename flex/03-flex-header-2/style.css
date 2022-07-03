@@ -6,9 +6,16 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex: auto;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -29,6 +36,15 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: px;
+  gap: 10px;
+  flex: auto;
+}
 button {
   border: none;
   border-radius: 8px;
